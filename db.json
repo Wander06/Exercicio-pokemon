@@ -1,0 +1,96 @@
+{
+    "pokemon": [
+        {
+            "id": 1,
+            "name": "pikachu",
+            "types": ["electric"]
+        },
+        {
+            "id": 2,
+            "name": "gabite",
+            "types": ["dragon", "ground"]
+        },
+        {
+            "id": 3,
+            "name": "Chikorita",
+            "types": ["grass"]
+        },
+        {
+            "id": 4,
+            "name": "ekans",
+            "types": ["poison"]
+        },
+        {
+            "id": 5,
+            "name": "bulbasaur",
+            "types": ["grass", "poison"]
+        }
+    ],
+
+    "pokemonWeakness": [
+        {
+          "types": "normal",
+          "weaknesses": ["fighting"]
+        },
+        {
+          "types": "fire",
+          "weaknesses": ["water", "rock", "ground"]
+        },
+        {
+          "types": "water",
+          "weaknesses": ["grass", "electric"]
+        },
+        {
+          "types": "electric",
+          "weaknesses": ["ground"]
+        },
+        {
+          "types": "grass",
+          "weaknesses": ["fire", "ice", "poison", "flying", "bug"]
+        },
+        {
+          "types": "ice",
+          "weaknesses": ["fire", "fighting", "rock", "steel"]
+        },
+        {
+          "types": "fighting",
+          "weaknesses": ["flying", "psychic", "fairy"]
+        },
+        {
+          "types": "flying",
+          "weaknesses": ["electric", "rock", "ice"]
+        },
+        {
+          "types": "ground",
+          "weaknesses": ["water", "ice", "grass"]
+        },
+        {
+          "types": "rock",
+          "weaknesses": ["water", "grass", "fighting", "ground", "steel"]
+        },
+        {
+          "types": "bug",
+          "weaknesses": ["fire", "flying", "rock"]
+        },
+        {
+          "types": "ghost",
+          "weaknesses": ["ghost", "psychic"]
+        },
+        {
+          "types": "dragon",
+          "weaknesses": ["ice", "dragon", "fairy"]
+        },
+        {
+          "types": "dark",
+          "weaknesses": ["fighting", "fairy", "bug"]
+        },
+        {
+          "types": "steel",
+          "weaknesses": ["fire", "fighting", "ground"]
+        },
+        {
+          "types": "fairy",
+          "weaknesses": ["poison", "steel"]
+        }
+      ]      
+}

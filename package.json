@@ -9,7 +9,14 @@
   "author": "Wanderzao",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "json-server": "^1.0.0-alpha.23",
+    "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.20"
   }
 }
