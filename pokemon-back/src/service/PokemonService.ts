@@ -13,7 +13,7 @@ export const getPokemonWeakness = (pokemon: any): PokemonType | string => {
     const weaknessFindDB = findWeakness(database, pokemonUser)
 
     if (weaknessFindDB) {
-        pokemonUser.weakness = uniqueWeaknesses(weaknessFindDB)
+        pokemonUser.weakness = [... new Set (weaknessFindDB)].sort()
     } else {
         pokemonUser.weakness = ['Nenhuma fraqueza encontrada']
     }
