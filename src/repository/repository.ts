@@ -23,14 +23,3 @@ export const findWeakness = (data: any, pokemon: PokemonType) => {
     return weaknesses
 }
 
-export const uniqueWeaknesses = (weakness: string[]) => {
-    const uniqueWeaknesses: string[] = []
-
-    for (let i = 0; i < weakness.length; i++) {
-        if (!uniqueWeaknesses.includes(weakness[i])) {
-            uniqueWeaknesses.push(weakness[i])
-        }
-    }
-
-    return uniqueWeaknesses.sort()
-}
