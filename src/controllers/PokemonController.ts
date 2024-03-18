@@ -5,7 +5,7 @@ import { PokemonType } from '../types/types'
 
 export const getPokemon = (req: Request, res: Response): void => {
     try {
-        const pokemon: PokemonType | string = getPokemonWeakness(req)
+        const pokemon: PokemonType | string = getPokemonWeakness(req.params.name)
 
         if (typeof pokemon === 'string') {
             res.status(404).send(pokemon)

@@ -6,8 +6,8 @@ export const readDatabasePokemon = () => {
     return JSON.parse(readFileSync(__dirname + "/../../db.json", 'utf8'))
 }
 
-export const findPokemon = (data: any, req: any) => {
-    const pokemonDB: PokemonType | undefined = data.pokemon.find((pokemon: any) => pokemon.name === req.body.name || pokemon.id === req)
+export const findPokemon = (data: any, namePokemon: any) => {
+    const pokemonDB: PokemonType | undefined = data.pokemon.find((pokemon: any) => pokemon.name === namePokemon )
     return pokemonDB
 }
 

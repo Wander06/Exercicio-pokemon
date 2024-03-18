@@ -1,4 +1,4 @@
-import { findPokemon, findWeakness, readDatabasePokemon, uniqueWeaknesses } from '../repository/repository'
+import { findPokemon, findWeakness, readDatabasePokemon} from '../repository/repository'
 import { PokemonType } from '../types/types'
 
 export const getPokemonWeakness = (pokemon: any): PokemonType | string => {

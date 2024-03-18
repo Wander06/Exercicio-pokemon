@@ -3,6 +3,6 @@ import { getPokemon } from '../controllers/PokemonController'
 
 const router = express.Router();
 
-router.get('/', getPokemon)
+router.get('/:name', getPokemon)
 
 export { router as mainRoutes }
