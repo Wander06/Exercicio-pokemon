@@ -3,27 +3,32 @@
         {
             "id": 1,
             "name": "pikachu",
-            "types": ["electric"]
+            "types": ["electric"],
+            "image": "https://i.postimg.cc/vTR9fB8r/pikachu.png"
         },
         {
             "id": 2,
             "name": "gabite",
-            "types": ["dragon", "ground"]
+            "types": ["dragon", "ground"],
+            "image": "https://i.postimg.cc/mrBXK7Vv/gabite.png"
         },
         {
             "id": 3,
             "name": "chikorita",
-            "types": ["grass"]
+            "types": ["grass"],
+            "image":  "https://i.postimg.cc/gky85QWG/chikorita.png"
         },
         {
             "id": 4,
             "name": "ekans",
-            "types": ["poison"]
+            "types": ["poison"],
+            "image":  "https://i.postimg.cc/8CsqtxYC/ekans.png"
         },
         {
             "id": 5,
             "name": "bulbasaur",
-            "types": ["grass", "poison"]
+            "types": ["grass", "poison", "dragon", "ground"],
+            "image":  "https://i.postimg.cc/Pr2GY0zP/bulbasaur2.png"
         }
     ],
 
@@ -91,6 +96,10 @@
         {
           "types": "fairy",
           "weaknesses": ["poison", "steel"]
+        },
+        {
+          "types": "poison",
+          "weaknesses": ["ground", "psychic"]
         }
       ]      
 }
